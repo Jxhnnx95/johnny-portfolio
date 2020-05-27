@@ -20546,11 +20546,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\projects\\johnny-portfolio\\portfolio\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "d:\\projects\\johnny-portfolio\\portfolio\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"

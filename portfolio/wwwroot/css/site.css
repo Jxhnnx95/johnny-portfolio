@@ -1,71 +1,85 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+﻿body{
+  background: #1e1f24;
+  color: #333;
 }
 
-/* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
+section{
+  background-color: #e9ecef;
+  border-radius: 4.8px;
+  padding: 64px 32px 32px 32px;
+  margin-bottom: 32px;
+  font-size: 20px;
   width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+}
+
+section p {
+  line-height: 30px;
+}
+
+.menu {
+  background-color: #e9ecef;
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #6c6d83;
+  font-size: 20px;
+}
+.hero {
+  margin-top: 30px;
+}
+.hero p {
+  font-size: 20px;
+}
+.img-hero{
+  width: 80%;
+  border-radius: 50%;
+  margin-top: 30px;
+  -webkit-transform:rotate(-40deg);
+  -moz-transform: rotate(-40deg);
+  -ms-transform: rotate(-40deg);
+  -o-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+}
+
+.section-padding {
+	padding: 10px 0;
+}
+.bottom {
+    background-color: #e9ecef;
+}
+.bottom .copyright {
+    color: #e5e5e5;
+    font-weight: 600;
+}
+.copyright a {
+    color: #2b80ee;
+    margin-left: 3px;
+    padding-right: 3px;
+}
+
+.btn-contact{
+  margin-bottom: 10px;
+}
+.bottom p {
+    margin-bottom: 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
+.copyright p span {
+    color: #333;
+}
+.bottom .copyright p, .bottom .copyright a:hover{
+    color: #6c6d83;
+}
+
+.card{
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: none;
+  }
 }
